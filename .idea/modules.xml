@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/UnityMultiPluginLinker.iml" filepath="$PROJECT_DIR$/UnityMultiPluginLinker.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multilinker/multilinker.iml" filepath="$PROJECT_DIR$/multilinker/multilinker.iml" />
     </modules>
   </component>
 </project>
