@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/UnityMultiPluginLinker.iml" filepath="$PROJECT_DIR$/UnityMultiPluginLinker.iml" />
       <module fileurl="file://$PROJECT_DIR$/UnityMultiPluginLinker_NewThread.iml" filepath="$PROJECT_DIR$/UnityMultiPluginLinker_NewThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -31,6 +31,7 @@ dependencies {
     provided files('libs/sdkbox.jar')
     provided files('libs/firebaseMessaging_4_4_3.jar')
     provided files('libs/libmessaging_unity_player_activity.jar')
+    compile files('libs/libmessaging_unity_player_activity.jar')
 }
 
 
