@@ -6,7 +6,6 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        //applicationId "com.norahai.unitymultipluginlinker"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
@@ -23,14 +22,15 @@ android {
 
 dependencies {
     provided fileTree(include: ['*.jar'], dir: 'libs')
-    compile  'com.android.support:appcompat-v7:27.0.1'
-    compile  'com.android.support.constraint:constraint-layout:1.0.2'
-    compile  'junit:junit:4.12'
-    compile  'com.android.support.test:runner:1.0.1'
-    compile  'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.android.support:appcompat-v7:27.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'junit:junit:4.12'
+    compile 'com.android.support.test:runner:1.0.1'
+    compile 'com.android.support.test.espresso:espresso-core:3.0.1'
     provided files('libs/classes.jar')
     provided files('libs/sdkbox.jar')
     provided files('libs/firebaseMessaging_4_4_3.jar')
+    provided files('libs/libmessaging_unity_player_activity.jar')
 }
 
 
